@@ -1,0 +1,22 @@
+name:                T2374-benchmark
+version:             0.1.0.0
+-- synopsis:            
+-- description:         
+homepage:            https://github.com/bgamari/T2374-benchmark
+license:             BSD3
+license-file:        LICENSE
+author:              Ben Gamari
+maintainer:          ben@well-typed.com
+-- copyright:           
+-- category:            
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable T2374-benchmark
+  main-is:             Bench.hs
+  other-extensions:    MagicHash, UnboxedTuples
+  build-depends:       base,
+                       ghc-prim,
+                       criterion
+  default-language:    Haskell2010
