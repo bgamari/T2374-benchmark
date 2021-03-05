@@ -8,7 +8,7 @@ import qualified Ptr
 import Criterion.Main
 
 k, n :: Int
-k = 100000
+k = 200000
 n = 25000
 
 main :: IO ()
