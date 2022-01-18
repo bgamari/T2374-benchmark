@@ -5,7 +5,7 @@ import GHC.Types
 import Control.Monad.ST
 import qualified ByteArr
 import qualified Ptr
-import Criterion.Main
+import Test.Tasty.Bench
 
 k, n :: Int
 k = 200000

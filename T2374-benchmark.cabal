@@ -15,8 +15,9 @@ cabal-version:       >=1.10
 
 executable T2374-benchmark
   main-is:             Bench.hs
+  other-modules:       ByteArr Ptr
   other-extensions:    MagicHash, UnboxedTuples
   build-depends:       base,
                        ghc-prim,
-                       criterion
+                       tasty-bench
   default-language:    Haskell2010
